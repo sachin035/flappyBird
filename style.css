@@ -1,0 +1,62 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  font-family: "Courier New", Courier, monospace;
+  text-align: center;
+}
+
+#canvas {
+  /* height: 360px;
+  width: 650px; */
+  background-image: url("./image/flappybirdbg.png");
+  background-color: skyblue;
+  border: 2px solid black;
+  margin: 40px auto;
+  display: block;
+  position: relative;
+  /* z-index: 1; */
+  /* opacity: 0.5; */
+  /* padding: 0;
+    margin: 0; */
+}
+.btnStart {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100px;
+  height: 50px;
+  background-color: rgb(13, 188, 13);
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  line-height: 50px;
+  cursor: pointer;
+}
+.btnStart:hover {
+  background-color: green;
+}
+
+.btnEnd {
+  position: absolute;
+  top: 65%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100px;
+  height: 50px;
+  background-color: rgb(13, 188, 13);
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  line-height: 50px;
+  cursor: pointer;
+}
+.btnEnd:hover {
+  background-color: green;
+}
